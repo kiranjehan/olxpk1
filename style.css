@@ -1,0 +1,314 @@
+ *body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0 ;
+    padding: 0;
+    color: #2c2b2b;
+}
+.header{
+    padding: 2px; 
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    
+} 
+
+  .header-bottom-bar{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 01px 1px #00000041;
+
+}
+
+a{text-decoration: none !important;
+
+}
+
+.top-bar-items{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom:2px ;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+.header-bottom{
+    padding-top: 10px;
+     
+}
+
+/* *************navbar************* */
+
+navbar{
+    display:flex;
+    align-items: center;
+    width: 1300px;
+    margin:auto;
+}
+.country_select{
+    width:250px;
+    margin-left:50px;
+}
+ 
+  .select i{
+    font-size: 15px;
+    transition:all 0.3s;
+}
+
+ .select{
+    width:100%;
+    padding: 10px 15px;
+    background-color:#ffffff ;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid black;
+    height: 44px;
+    margin-bottom:15px ;
+
+
+ }
+ .search_box{
+    display:flex;
+    margin-left:30px;
+ }
+
+ .search_box i{
+    background-color: #000;
+    color:white;
+    padding:14px;
+    font-size: 15px;
+    border-radius:0 6px 6px 0;
+    cursor: pointer;
+    
+}
+
+ .search_class{
+    padding:10px;
+    width: 40vw;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px 0 0 6px;
+    height: 44px;
+    
+ }
+
+.Selling-page button{
+ margin-left:50px;
+ border-style:solid;
+ border-width:5px;
+ border-top-color:#23e5db ;
+ border-left-color:#ffce32;
+ border-bottom-color:#3a77ff;
+ border-right-color:#2e00fcf6;
+ font-size: 15px;
+ cursor:pointer;
+ padding:2px 30px;
+ border-radius: 25px;
+ background-color: #f7f8f8;
+ display: flex;
+ 
+}
+
+
+li{
+    display:inline-block;
+    padding-right:10px ;
+    font-size: 0.9em;
+}
+ 
+
+.carousel-inner{
+    height: 2%;
+}
+
+
+h4{
+    padding-left:80px;}
+
+.card-title{
+    text-align:left;
+}
+
+.card-text{
+    text-align:left;
+    color: #201d1d;
+}
+.Vehicles{
+    margin-bottom:-35px!important;
+    padding-left:3px ;
+    font-weight:bold;
+    color: #353434;
+}
+.Convence{ margin-bottom:-35px!important;
+    padding-left:3px ;
+    font-weight:bold;
+    color: #353434;
+}
+.Residence{ margin-bottom:-35px!important;
+    padding-left:3px ;
+    font-weight:bold;
+    color: #353434;
+}
+.SelfPhone{ margin-bottom:-35px!important;
+    padding-left:3px ;
+    font-weight:bold;
+    color: #353434;
+}
+    
+.capture img{
+    float:right;
+}
+
+.footer-bottom{
+    background-color:rgb(34, 54, 34)!important;
+    color: #f7f8f8;
+}
+
+/* ***************About************** */
+header-1{background-color:#f8f8f8 ;
+padding: 20px;
+border-bottom:1px solid #ddd;
+}
+
+
+
+
+header nav ul{
+    list-style:none;
+    padding:0;
+    margin:5px;
+    display:flex;
+    align-items:flex-start;
+}
+header nav ul li{
+    margin-left:10px;
+}
+header nav ul li a{
+    text-decoration:none;
+    color:#333;
+}
+main{
+    padding:20px;
+}
+.about-section h2{
+    font-size:32px;
+    margin-bottom:10px;
+    
+}
+.aaa{
+    font-style:italic;
+}
+
+
+.about-section p{
+    margin-bottom:20px;
+    font-size:18px;
+    
+    
+}
+.Contact-Us, .about-us{
+margin-bottom:20px ;
+
+}
+
+
+.Contact-Us h3,.about-us h3{
+     
+    font-size:24px;
+    margin-bottom:10px;
+}
+.Contact-Us a,.about-us a{
+    
+    display: block;
+    color:#0066cc;
+    text-decoration:none;
+    margin-bottom:5px;
+}
+.Contact-Us a:hover,.about-us a:hover{
+    text-decoration:underline;
+}
+footer{
+    background-color:#f8f8f8;
+    padding:20px ;
+    text-align: center;
+    border-top:1px solid #ddd ;
+}
+footer ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:10px;
+    
+}
+footer ul li {
+    margin-right:10px;
+ }
+  footer ul li a {
+    text-decoration: none;
+    color:#333;
+  }  
+  footer p{
+    margin:0;
+    font-size:14px ;
+    background-color:#607bf3;
+    color: #f8f8f8;
+    height:50px;
+    padding-top:20px ;
+  }
+
+ .main2{
+    width:300px;
+    border:01px solid #b6b9b8;
+    padding:8px;
+    border-radius:20px;
+    float:right ;
+    margin-right:60px;
+    
+ }
+    
+ 
+ input{
+    background-color:transparent ;
+    border:0px;
+    outline:0px;
+    width:250px;
+    
+ }
+
+ .icon-search{
+    color:rgb(10, 10, 10) ;
+    font-size: 20px;
+    padding-right:5px ;
+ }
+
+/* ************************contact-us****************** */
+
+.Contact-Us{
+    margin-left:15%!important;
+
+}
+h2{
+    font-weight:bolder;
+}
+
+    
+    
+.btn{
+    
+    width:75px;
+    height: 35px;
+    float:right;
+    margin-top:-10px !important;
+    
+    
+}
+
+
+    
+.btn:hover{
+    background-color:#232c1d !important;
+}
